@@ -1,0 +1,126 @@
+
+@media(max-width: 2000px){
+    .team__images {
+        margin: 0px 0px 0px 20px;
+    }
+}
+@media(max-width: 1230px){
+    .team__images {
+        display: inline-flex;
+        align-items: center;
+        height: auto;
+        margin-top: 0;
+    }
+    
+    .team__one, .team__three {
+        margin-top: 0;
+    }
+    .team__about{
+        width: 400px;
+        line-height: 20px;
+    }
+    .team__text{
+        font-size: 10px;
+    }
+    .team__title{
+        font-size: 20px;
+    }
+    .about__logo{
+        margin-top: 110px;
+    }
+    .about__inner{
+        margin: 0 25%;
+        text-align: center;
+    }
+    .blog__inner{
+        padding: 0 30% 120px 30%;
+    }
+    .reports__blog, .news__blog {
+        margin-top: 0;
+    }
+}
+@media(max-width: 1170px){
+        .about__text{
+            display: block;
+            text-align: center;
+            margin: 0;
+    }
+    .about__text-left{
+float: none;
+    }
+    .about__text-right{
+        float: none;
+            }
+            .blog__inner{
+                display: inline-block;
+            }
+}
+@media(max-width: 1030px){
+.about__leaders-text{
+    margin: 0px;
+}
+}
+@media(max-width: 910px){
+    .about__leaders-text{
+        margin: auto;
+    }
+    .team__image{
+        max-width: 100%;
+        padding: 0 20px;
+    }
+}
+@media (max-width: 800px){
+    .gallery__image {
+        width: 50%;
+    }
+}
+@media(max-width: 700px){
+    .header__btn{
+        float: none;
+    }
+    .header__contacts{
+        text-align: center;
+    }
+    .about__logo {
+        margin-top: 0px;
+    }
+    .blog__inner {
+        padding: 0 15%;
+    }
+    }
+@media(max-width: 520px){
+    .about__text{
+        margin: 0;
+    }
+}
+@media(max-width: 400px){
+    .greeting__logo{
+        padding-bottom: 0;
+    }
+    .greeting__title{
+        font-size: 50px;
+    }
+    .about__inner {
+        margin: 0 auto;
+        text-align: center;
+    }
+    .about__leaders-text {
+        padding-bottom: 25px;
+    }
+    .blog__inner{
+        padding: 0 auto;
+        display: inline-flex;
+    }
+    .team__image {
+        margin-bottom: 0;
+        max-width: 100%;
+        padding: 0 auto;
+}
+.team__one{
+    height: 260px;
+}
+.team__about {
+    width: 300px;
+    margin-bottom: -115px;
+}
+}
